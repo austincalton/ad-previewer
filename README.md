@@ -16,19 +16,12 @@ This Chrome extension provides a convenient side panel for previewing and managi
 
 ## Installation
 
-- A detailed install with screenshots is available here: https://go-sokal.notion.site/Quick-Install-1d8a519dc94680c8b762e5fecfbedb17?pvs=4
-
-### Prerequisites
-
-- Google Chrome Browser (Version 100+)
-- Chrome with Side Panel support enabled
-
-### Steps
-
 1. Clone the repository
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode"
 4. Click "Load unpacked" and select the project directory
+
+- A detailed install with screenshots is available here: https://go-sokal.notion.site/Quick-Install-1d8a519dc94680c8b762e5fecfbedb17?pvs=4
 
 ## Usage
 
@@ -46,8 +39,15 @@ This Chrome extension provides a convenient side panel for previewing and managi
 - Vanilla JavaScript
 - Chrome Extension API
 
+### Design
+
+- Tabs: https://www.w3schools.com/howto/howto_js_tabs.asp
+- Buttons: https://copy-paste-css.com/
+- Gradients: https://cssgradient.io/
+- Icons: https://icons.relume.io/
+
 ### Project Structure
 
 - `sidepanel.html`: Main side panel interface
-- `sidepanel.css`: Styling for the side panel
-- `components/`: Modular CSS and component styles
+- `sidepanel.js`: Connects events triggered by the side panel to modules that update the content of the webpage
+- `service-worker.js`: Establishes a chrome context menu (opened via right-clicking on webpage content)

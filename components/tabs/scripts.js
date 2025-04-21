@@ -1,4 +1,4 @@
-export function openCity(evt, cityName) {
+export function showTab(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
 
