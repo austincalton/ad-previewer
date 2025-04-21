@@ -21,7 +21,7 @@ This Chrome extension provides a convenient side panel for previewing and managi
 3. Enable "Developer mode"
 4. Click "Load unpacked" and select the project directory
 
-- A detailed install with screenshots is available here: https://go-sokal.notion.site/Quick-Install-1d8a519dc94680c8b762e5fecfbedb17?pvs=4
+A detailed install with screenshots is available here: https://go-sokal.notion.site/Quick-Install-1d8a519dc94680c8b762e5fecfbedb17?pvs=4
 
 ## Usage
 
